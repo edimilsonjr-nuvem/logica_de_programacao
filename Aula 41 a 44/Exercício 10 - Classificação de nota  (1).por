@@ -11,7 +11,7 @@ programa
         {
             escreva("Aprovado")
         }
-        senao se (nota >= 5 e nota <=7)         // os sinais de >= 7 e >= 5 e <= 7 estavão trocados
+        senao se (nota >= 5 e nota < 7)         // os sinais de >= 7 e >= 5 e <= 7 estavão trocados
         {                                       // as frases "Aprovado" e "recuperação" estavão trocadas
             escreva("Recuperação")
         }
