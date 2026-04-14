@@ -9,7 +9,7 @@ programa
 
         se (valor >= 100)                   // estava com o sinal de menor ao inves de maior
         {
-            total = valor * 0.10
+            total = valor - (valor * 0.10) 
         }
         senao
         {
