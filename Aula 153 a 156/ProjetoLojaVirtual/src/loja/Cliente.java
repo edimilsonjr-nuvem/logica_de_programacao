@@ -1,0 +1,41 @@
+package loja;
+
+public class Cliente {
+
+	private String nome;
+	private int idade;
+	private String email;
+	
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		if(!nome.isEmpty()) {
+			this.nome = nome;
+		} else {
+			System.out.println("Nome do cliente invalido!!!");
+		}
+	}
+	
+	public int getIdade() {
+		return idade;
+	}
+	public void setIdade(int idade) {
+		if (idade >= 0) {
+			this.idade = idade;
+		} else {
+			System.out.println("Idade invalida!!!");
+		}
+	}
+	
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		if(!email.isEmpty()) {
+			this.email = email;
+		} else {
+			System.out.println("E-mail invalido!!!");
+		}
+	}
+}
